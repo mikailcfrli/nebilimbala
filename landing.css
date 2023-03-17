@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.big-box {
+  width: 1440px;
+  background-image: url(./assets/Hero.jpg);
+  height: 962px;
+}
+.big-box .hero-section {
+  width: 1440px;
+  padding-top: 94px;
+}
+.big-box .hero-section .discover-box {
+  width: 886px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  padding-left: 191px;
+}
+.big-box .hero-section .discover-box .first-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+  width: 619px;
+}
+.big-box .hero-section .discover-box .more-info {
+  width: 546px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.big-box .hero-section .discover-box .input-button {
+  display: flex;
+  justify-content: space-between;
+  width: 886px;
+  gap: 60px;
+}
+.big-box .hero-section .discover-box .input-button div {
+  display: flex;
+  gap: 23px;
+  align-items: center;
+  width: 297px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  border-bottom: 2px solid #bfc0c5;
+}
+.big-box .hero-section .discover-box .input-button button {
+  width: 171px;
+  background-color: #1b7dff;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  padding: 15px 39px;
+  border: 0;
+}
+.big-box header {
+  display: flex;
+  justify-content: center;
+}
+.big-box header .navigation {
+  width: 1078px;
+  padding-top: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+.big-box header .navigation .navlinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.big-box header .navigation .navlinks a {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.big-box header .navigation div {
+  width: 490px;
+}/*# sourceMappingURL=landing.css.map */
